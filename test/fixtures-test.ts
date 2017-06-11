@@ -26,6 +26,17 @@ const valid_schemas: Array<MuesliSchema> = [
   {
     type: 'object',
     properties: {
+      fruit: {
+        type: 'string',
+        enum: ['apple', 'orange']
+      },
+    },
+    required: [],
+    additionalProperties: false,
+  },
+  {
+    type: 'object',
+    properties: {
       foo: { type: 'string' },
     },
     required: [],
