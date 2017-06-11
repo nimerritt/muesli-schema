@@ -2,6 +2,7 @@ export type MuesliNode = MuesliString | MuesliNumber | MuesliArray | MuesliObjec
 
 export interface MuesliString {
   type: 'string';
+  enum?: Array<string>;
 }
 
 export interface MuesliNumber {

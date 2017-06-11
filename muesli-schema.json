@@ -41,7 +41,8 @@
       "stringType": {
         "type": "object",
         "properties": {
-          "type": { "type": "string", "enum": ["string"] }
+          "type": { "type": "string", "enum": ["string"] },
+          "enum": { "type": "array", "items": { "type": "string" } }
         },
         "additionalProperties": false,
         "required": ["type"]
