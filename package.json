@@ -1,9 +1,12 @@
 {
   "name": "@nimerritt/muesli-schema",
-  "version": "0.0.6",
+  "version": "0.0.7",
   "description": "A healthy subset of JSON-schema without all the sugar.",
   "types": "build/muesli-schema.d.ts",
-  "files": "muesli-schema.json",
+  "files": [
+    "build/muesli-schema.d.ts",
+    "muesli-schema.json"
+  ],
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
