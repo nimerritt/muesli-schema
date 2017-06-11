@@ -1,6 +1,6 @@
 {
   "name": "@nimerritt/muesli-schema",
-  "version": "0.0.8",
+  "version": "0.0.0-development",
   "description": "A healthy subset of JSON-schema without all the sugar.",
   "types": "build/src/muesli-schema.d.ts",
   "files": [
@@ -10,7 +10,8 @@
   "scripts": {
     "prepublish": "npm run build",
     "build": "tsc",
-    "test": "mocha"
+    "test": "mocha",
+    "semantic-release": "semantic-release pre && npm publish && semantic-release post"
   },
   "author": "Nicholas Merritt",
   "license": "ISC",
@@ -22,6 +23,11 @@
     "chai": "4.0.1",
     "mocha": "3.4.2",
     "ts-node": "3.0.4",
-    "typescript": "2.3.4"
+    "typescript": "2.3.4",
+    "semantic-release": "^6.3.6"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/nimerritt/muesli-schema.git"
   }
 }
