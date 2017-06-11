@@ -1,4 +1,5 @@
 # Muesli Schema
+[![Build Status](https://travis-ci.org/nimerritt/muesli-schema.svg?branch=master)](https://travis-ci.org/nimerritt/muesli-schema)
 
 Json-schema is full of sugar. Let's restrict it to the essentials and
 have a great day.
