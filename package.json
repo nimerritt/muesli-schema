@@ -20,7 +20,7 @@
     "@types/json-schema": "4.0.0",
     "@types/mocha": "2.2.41",
     "ajv": "5.1.5",
-    "chai": "4.0.2",
+    "chai": "4.1.1",
     "greenkeeper-lockfile": "1.5.0",
     "mocha": "3.4.2",
     "semantic-release": "^6.3.6",
